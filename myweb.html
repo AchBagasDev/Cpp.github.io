@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Font Gugel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="ava1.jpg" type="image/x-icon" />
+
+    <title>Property</title>
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100 mt-2">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="aa.jpg" alt="Logo" width="30" class="d-inline-block align-text-top me-3" />
+          Rumah Impian
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <div>
+            <button class="button-primary">Daftar</button>
+            <button class="button-secondary">Masuk</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awal Hero Section -->
+    <section id="hero">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-md-6 hero-tagline my-auto">
+            <h1>Membantu Temukan Rumah Impian.</h1>
+            <p><span class="fw-bold">Rumah Impian</span> Hadir Untuk Temukan Rumah Terbaik untukmu, Untuk Di Jual Ataupun Di Sewa Dengan Sumber Terpercaya.</p>
+            <button class="button-lg-primary">Temukan Rumah</button>
+            <a href="#">
+              <img src="Assets/Right Arrow.png" alt="" class="ms-3" />
+            </a>
+          </div>
+        </div>
+        <img src="Assets/Hero Image.png" alt="" class="position-absolute end-0 bottom-0 img-hero" />
+        <img src="Assets/Accsent 1.png" alt="" class="position-absolute top-0 start-0 accsent-img" />
+      </div>
+    </section>
+    <!-- Akhir Hero Section -->
+
+    <!-- Layanan Section -->
+    <section id="layanan">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Layanan Kami</h2>
+            <span class="sub-title">Rumah impian hadir menjadi solusi bagi kamu</span>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="Assets/property.png" alt="" class="position-absolute top-50 start-50 translate-middle" />
+              </div>
+              <h3 class="mt-4">Property Baru</h3>
+              <p class="mt-3">Rumah impian kini jadi kenyataan, Beli rumah baru dengan fasilitas terbaik dengan lingkungan yang nyaman.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="Assets/beli.png" alt="" class="position-absolute top-50 start-50 translate-middle" />
+              </div>
+              <h3 class="mt-4">Sewa Rumah</h3>
+              <p class="mt-3">Sewa rumah yang indah untuk keluarga anda, pilihan terbaik untuk tempat tinggal keluarga mu.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-layanan">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="Assets/Sewa.png" alt="" class="position-absolute top-50 start-50 translate-middle" />
+              </div>
+              <h3 class="mt-4">Beli Rumah</h3>
+              <p class="mt-3">Beli rumah sempurna dengan harga terbaik kualitas terjamin dari sumber terpercaya :)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Layanan Section -->
+
+    <!-- Search Section -->
+    <section id="search" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Temukan Rumah Impianmu</h2>
+            <p>Sekarang anda dapat menghemat semua hal stress, waktu, dan biaya tersembunyi, dengan ratusan rumah untuk anda.</p>
+          </div>
+          <div class="col-10 mx-auto mt-5">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#jual" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Jual</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#sewa" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sewa</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#property-baru" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Property Baru</button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+              <!-- ID Jual -->
+              <div class="tab-pane fade show active" id="jual" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <!-- Dropdown Tipe Rumah -->
+
+                <div class="input-group input-cari mb-3">
+                  <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/Home Icon.png" alt="" />
+                    Tipe Rumah
+                  </button>
+                  <!-- Dropdown Range Harga -->
+
+                  <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/Money-icon.png" alt="" />
+                    Range Harga
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+
+                  <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="cari berdasarkan Lokasi, ID, Property" />
+
+                  <button class="button-primary" type="button" id="button-addon2">Cari</button>
+                </div>
+              </div>
+
+              <!-- ID Sewa -->
+
+              <div class="tab-pane fade" id="sewa" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="input-group input-cari mb-3">
+                  <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/Home Icon.png" alt="" />
+                    Tipe Rumah
+                  </button>
+                  <!-- Dropdown Range Harga -->
+
+                  <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/Money-icon.png" alt="" />
+                    Range Harga
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+
+                  <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="cari berdasarkan Lokasi, ID, Property" />
+
+                  <button class="button-primary" type="button" id="button-addon2">Cari</button>
+                </div>
+              </div>
+
+              <!-- ID Property Baru -->
+
+              <div class="tab-pane fade" id="property-baru" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="input-group input-cari mb-3">
+                  <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/Home Icon.png" alt="" />
+                    Tipe Rumah
+                  </button>
+                  <!-- Dropdown Range Harga -->
+
+                  <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/Money-icon.png" alt="" />
+                    Range Harga
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+
+                  <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="cari berdasarkan Lokasi, ID, Property" />
+
+                  <button class="button-primary" type="button" id="button-addon2">Cari</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Search Section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
